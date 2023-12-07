@@ -14,9 +14,9 @@ export const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="bg-scarlet flex items-center justify-between border-b border-gray-400 py-8 mb-4">
+        <div className="bg-scarlet flex items-center justify-between border-b border-gray-400 py-8 mb-4 sm: h-32">
             <a href="/">
-                <div className="shrink-0">
+                <div className="object-scale-down h-48 w-96">
                 <img src={pokeLogo} alt="poke logo"/>
                 </div>
             </a>
@@ -37,10 +37,10 @@ export const Header = () => {
                             onClick={() => setIsNavOpen(false)}
                         >
                             <svg
-                                className="h-8 w-8 text-gray-600"
+                                className="h-8 w-8 yellow"
                                 viewBox="0 0 24 24"
                                 fill="none"
-                                stroke="currentColor"
+                                stroke="yellow"
                                 strokeWidth="2"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
