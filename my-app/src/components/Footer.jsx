@@ -4,7 +4,7 @@ import {FaFigma} from "react-icons/fa";
 export const Footer = () => {
     return (
         <div>
-            <footer className="bg-scarlet  shadow dark:bg-gray-900 mx-auto h-10 fixed bottom-0">
+            <footer className="bg-scarlet  shadow dark:bg-gray-900 mx-auto h-10 fixed bottom-0 w-screen">
                 <div className="w-full max-w-screen-xl mx-auto p-2">
                     <div className="sm:flex sm:items-center sm:justify-between">
 
